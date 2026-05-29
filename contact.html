@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | PB02 GYM Amritsar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">PB02 GYM</a>
+      <button class="nav-toggle" id="navToggle">☰</button>
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Background Container Section -->
+  <section class="contact-section">
+    <!-- Centered Curved Rectangular Contact Card Container -->
+    <div class="contact-card">
+      <h2>GET IN TOUCH</h2>
+      <p>Ready to Start Your Fitness Journey? Contact Us Today!</p>
+      
+      <form id="contactForm">
+        <div class="input-group">
+          <input id="name" type="text" placeholder="👤 Name" required>
+        </div>
+        <div class="input-group">
+          <input id="phone" type="tel" placeholder="📞 Phone" required>
+        </div>
+        <div class="input-group">
+          <textarea id="message" placeholder="💬 Message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Embed Maps and Business Directory Details Section -->
+  <section class="map-location-section">
+    <div class="map-grid-container">
+      <div class="location-text-info">
+        <h2>Visit PB02 GYM</h2>
+        <p><strong>📍 Address:</strong> Sunny Enclave, near Lake head school, Mahal, Amritsar, Khairabad, Punjab 143001</p>
+        <p><strong>⏰ Operational Hours:</strong> Monday to Saturday: 05:30 AM – 09:30 PM (Sundays Closed)</p>
+        <p><strong>⭐ Business Authority:</strong> Proudly holding an average ranking score of 4.9 stars calculated from over 319 active local member reviews!</p>
+        
+        <div class="directory-blocks">
+          
+          <a href="https://pb02-gym-amritsar.wheree.com/" target="_blank" class="dir-link web-link">Local Web Directory</a>
+        </div>
+      </div>
+      
+      <!-- Safe responsive iframe wrapper container mapping business address coordinates -->
+      <div class="map-iframe-holder">
+        <iframe 
+  src="https://www.google.com/maps?q=31.6556742,74.8069347&z=17&output=embed"
+  width="100%" 
+  height="350" 
+  style="border:0; border-radius:12px;" 
+  allowfullscreen="" 
+  loading="lazy">
+</iframe>
+      </div>
+    </div>
+  </section>
+
+  <div class="floating-actions">
+    <a href="https://zoom.com" target="_blank" class="float-btn float-zoom">💻 Zoom Class</a>
+    <a href="tel:09176642021" class="float-btn float-call">📞 Call Now</a>
+    <a href="https://wa.me/919176642021?text=Hi%20PB02%20GYM,%20I%20want%20to%20know%20about%20membership." 
+   target="_blank" 
+   class="float-btn float-whatsapp" 
+   title="WhatsApp Chat">
+   💬 WhatsApp
+</a>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2026 PB02 GYM Amritsar. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
